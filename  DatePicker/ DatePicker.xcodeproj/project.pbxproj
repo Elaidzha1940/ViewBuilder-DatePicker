@@ -11,6 +11,7 @@
 		E42BB50E29F46E1200950464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42BB50D29F46E1200950464 /* ContentView.swift */; };
 		E42BB51029F46E1300950464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42BB50F29F46E1300950464 /* Assets.xcassets */; };
 		E42BB51429F46E1300950464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42BB51329F46E1300950464 /* Preview Assets.xcassets */; };
+		E42BB51B29F4711100950464 /* Custom DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42BB51A29F4711000950464 /* Custom DatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E42BB50F29F46E1300950464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42BB51129F46E1300950464 /* _DatePicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _DatePicker.entitlements; sourceTree = "<group>"; };
 		E42BB51329F46E1300950464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E42BB51A29F4711000950464 /* Custom DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom DatePicker.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E42BB50F29F46E1300950464 /* Assets.xcassets */,
 				E42BB51129F46E1300950464 /* _DatePicker.entitlements */,
 				E42BB51229F46E1300950464 /* Preview Content */,
+				E42BB51A29F4711000950464 /* Custom DatePicker.swift */,
 			);
 			path = " DatePicker";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42BB51B29F4711100950464 /* Custom DatePicker.swift in Sources */,
 				E42BB50E29F46E1200950464 /* ContentView.swift in Sources */,
 				E42BB50C29F46E1200950464 /* _DatePickerApp.swift in Sources */,
 			);

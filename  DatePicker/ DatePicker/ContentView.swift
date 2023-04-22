@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 23.04.2023
 //
-//
+//  */
 
 import SwiftUI
 
@@ -40,12 +40,13 @@ struct UserView: View {
             Text("iOS")
                 .padding(.horizontal, 8)
             Spacer()
-            //Image("")
+            Image("chevron.right")
                 .padding(.trailing)
         }
         .frame(width: 400, height: 50)
-        .background(Color.red)
-        .foregroundColor(Color.brown)
+        .background(Color.blue)
+        .foregroundColor(Color.white)
+        .opacity(0.6)
         .cornerRadius(14)
     }
 }

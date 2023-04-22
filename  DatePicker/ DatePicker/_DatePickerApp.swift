@@ -11,7 +11,7 @@ import SwiftUI
 struct _DatePickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Custom_DatePicker()
         }
     }
 }
